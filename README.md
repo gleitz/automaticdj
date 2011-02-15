@@ -18,7 +18,7 @@ Getting started
 ---------------
 
 1. In `visage.py`
-   * Edit the section titled `edit me!` with youe Face.com API key and secret, Facebook session key, Facebook ID, and Hunch auth token
+   * Edit the section titled "edit me!" with youe Face.com API key and secret, Facebook session key, Facebook ID, and Hunch auth token
 
 2. Train your friends' faces
    * `import visage`
@@ -35,4 +35,4 @@ Notes and gotchas
 * Getting a FB session is a bit of a pain. Here's what I did:
   1. Create a Facebook App
   2. Go to this link, inserting your client_id `https://graph.facebook.com/oauth/authorize?client_id=XXX&redirect_uri=http%3A//gleitzman.com/faces/&scope=offline_access,email,user_birthday,user_about_me,user_education_history,user_interests,user_likes,user_location,user_religion_politics,user_website,user_work_history,user_checkins,friends_about_me,friends_likes,friends_birthday,friends_education_history,friends_checkins,user_photo_video_tags,user_photos,friends_photo_video_tags,friends_photos,friends_birthday,friends_location,friends_work_history,friends_education_history,friends_activities,friends_hometown,friends_interests,friends_location,friends_likes`
-  3. Exchange for an infinite session: `https://graph.facebook.com/oauth/access_token?client_id=XXX&redirect_uri=http%3A//gleitzman.com/faces/&client_secret=XXX'
+  3. Exchange for an infinite session: `https://graph.facebook.com/oauth/access_token?client_id=XXX&redirect_uri=http%3A//gleitzman.com/faces/&client_secret=XXX`
