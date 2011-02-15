@@ -4,12 +4,12 @@ Automatic DJ
 Automatic music selection system for people
 who love great music (even if they don't know it yet). Uses [facial recognition](http://developers.face.com/) and the [Hunch API](http://hunch.com/developers) to build a custom playlist based on the tastes of the people at the party.
 
-The current version uses AppleScript to play the song using Spotify, but once the playlist is generated you can use any music player to play the track. There is also minimal support in the code for playing songs through the GrooveShark API.
+The current version uses Spotify to play the songs (controlled via AppleScript), but once the playlist is generated you can use any music player to play the track. There is also minimal support in the code for playing songs through the GrooveShark API.
 
 Other libraries used include:
 
 * [isightcapture](http://www.intergalactic.de/pages/iSight.html) for taking pictures via the command line
-* [python-face-client](https://github.com/Kami/python-face-client) (edited to work with the current Face.com API)
+* [python-face-client](https://github.com/Kami/python-face-client) edited to work with the current Face.com API
 * [EchoNest](http://code.google.com/p/pyechonest/)
 * [Spotify Metadata API](http://developer.spotify.com/en/metadata-api/overview/)
 
